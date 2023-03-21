@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightgray;
+            border: 2px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            box-shadow: 3px 3px 8px rgba(114, 112, 112, 0.616);
+            margin: 15px 10px;
+        }
+        div:hover{
+            background-color: rgb(120, 201, 201);
+        }
+        div > a{
+            color: black;
+        }
+        .link {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <a class="link" href="hover.html" target="_self">
+        <div>01 - Exemplo de Hover</div>
+    </a>
+    <a class="link" href="links.html" target="_self">
+        <div>02 - Links</div>
+    </a>
+    <div>03</div>
+</body>
+</html>

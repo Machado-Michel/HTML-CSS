@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #FF70D2, #DC72E8, #9C6CF5, #CA70FF, #FF70D2); /*Comando para criar Degradê*/
+}
+main{
+    background-color: #ffffff;
+    border-radius: 15px; /*Deixa a borda arredondada*/
+    box-shadow: 10px 10px 25px #a04656b0;
+    width: 600px;
+    padding: 12px; /*Margem de borda*/
+    margin: auto; /*Centraliza o Main independente do tamanho da tela, sempre será centralizado.*/
+}
+h1 {
+    color: #9C6CF5;
+    text-align: center;
+    text-shadow: 2px 2px 4px #48327281; /*Sombra nas fontes*/
+}
+h2 {
+    color: #F56C85;
+    text-shadow: 1px 1px 2px #72323e8a;
+}
+p{
+    text-align: justify;
+}

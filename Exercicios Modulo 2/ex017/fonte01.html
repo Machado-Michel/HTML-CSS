@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            /*
+            Medidas Absolutas
+            cm = Centimetro
+            mm = milimetro
+            in = polegadas
+            px = pixel
+            pt = ponto
+            pc = paica
+
+            Medidas Relativas
+            em = medida relativa ao tamanho atual da fonte (padrão é 16px)
+            ex = relativo a altura "X" de uma fonte
+            rem = relativo a fonte que "root" da fonte que está configurada no body
+            vw = largura da ViewPort da tela em %
+            vh = Altura da ViewPort da tela em $
+            % = Medida em "%" porcentagem
+            */
+            font-weight: bold;
+            font-size: 1em;
+            /*lighter normal bold bolder
+            OU
+            100 até 900
+            */
+        }
+
+        h1{
+            /* Criando uma shorthand font
+        Ao inves de usarmos as declarações abaixo;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        font-style: italic;
+        
+        Usamos a Declaração abaixo 
+        font-style -> font-weight -> font-size -> font-family
+        */
+            font: italic bolder 3em 'Times News Roma', sans-serif;
+        }
+        p {
+            text-align: justify;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente voluptatem modi ullam quasi omnis impedit quaerat odio voluptas id dolores saepe architecto et nemo illo, asperiores ipsa nam repudiandae reiciendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorem nostrum pariatur odit. Saepe cum quas at rerum repellat tempore accusantium, quos sed debitis totam? Reiciendis harum distinctio veritatis laborum.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore rerum, at, animi dicta facere neque soluta dolorum ratione voluptatum sint cum rem harum ad quisquam. Ab odit ad aperiam deserunt.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae unde, esse eligendi iure ipsa magnam nulla facere corporis, deleniti dolore nostrum corrupti ab veniam iste et odit? Ab, veniam perspiciatis.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, sequi laboriosam. Sapiente veniam laboriosam provident rerum sint consequuntur sunt blanditiis perferendis eaque. Earum, quia sit vel velit ab voluptas iure! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eius sunt fuga nisi nesciunt, nostrum porro ratione omnis consectetur ea molestias assumenda labore voluptate deleniti quibusdam enim non sit alias.</p>
+    <ul>
+        <li>
+            <a href="fonte02.html" target="_self">Ir para Página de Alinhamentos.</a>
+        </li>
+    </ul>
+</body>
+</html>
