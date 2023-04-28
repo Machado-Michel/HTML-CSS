@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Basic Tetris HTML Game</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris do Mijas</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
         html,
         body {
@@ -13,6 +15,9 @@
 
         body {
             background: black;
+            background-image: url(imagens/wallpapers-preto-em-4k-26.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -146,10 +151,10 @@
 
             context.fillStyle = 'black';
             context.globalAlpha = 0.75;
-            context.fillRect(0, canvas.height / 2 - 30, canvas.width, 60);
+            context.fillRect(0, canvas.height / 2 - 390, canvas.width, 840);
 
             context.globalAlpha = 1;
-            context.fillStyle = 'red';
+            context.fillStyle = 'orange';
             context.font = '36px monospace';
             context.textAlign = 'center';
             context.textBaseline = 'middle';
